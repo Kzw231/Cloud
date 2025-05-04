@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'clouddb';
+$host = "lab-db.cxtxmczmddbo.us-east-1.rds.amazonaws.com";
+$username = "admin";
+$password = "lab-password";
+$database = "lab";
 
 $conn = new mysqli($host, $username, $password, $database);
 
